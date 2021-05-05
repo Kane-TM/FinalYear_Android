@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ButtonLogin">
+        <item name="colorPrimary">#1e94d2</item>
+    </style>
+    <style name="ButtonRegister">
+        <item name="colorPrimary">#18ac4e</item>
+    </style>
+</resources>

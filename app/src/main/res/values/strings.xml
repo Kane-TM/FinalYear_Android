@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MainActivity</string>
+    <string name="NewRegister">Người dùng chưa có thẻ thành viên, vui lòng chọn Đăng Ký bên dưới.</string>
+    <string name="PointNotification"> point sẽ hết hạn ngày 31/5/2021.</string>
+    <string name="NextLevel">Giá trị đơn hàng cần tích lũy để đạt hạng Silver trong tháng tiếp theo: 200000 VND</string>
+    <string name="FinishRegisterEmailNotification">Chúng tôi vừa gửi một email đến địa chỉ email mà bạn đã nhập trong phần đăng kí. Nếu bạn vẫn không nhận được email, xin vui lòng thông báo tới bộ phận hỗ trợ.</string>
+    <string name="FinishRegisterWarning">CHÚ Ý: Các thông tin này rất quan trọng trong việc đăng nhập. Hãy ghi nhớ những thông tin này!</string>
+    <string name="ChangePasswordWarning">Sử dụng trang này để thay đổi mã PIN. Sau khi đổi mã PIN thành công, mã PIN mới của bạn sẽ có hiệu lực trong lần đăng nhập kế tiếp.</string>
+</resources>
