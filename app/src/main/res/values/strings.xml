@@ -7,4 +7,6 @@
     <string name="FinishRegisterWarning">CHÚ Ý: Các thông tin này rất quan trọng trong việc đăng nhập. Hãy ghi nhớ những thông tin này!</string>
     <string name="ChangePasswordWarning">Sử dụng trang này để thay đổi mã PIN. Sau khi đổi mã PIN thành công, mã PIN mới của bạn sẽ có hiệu lực trong lần đăng nhập kế tiếp.</string>
     <string name="SavePointNotification">Bạn đang xem lịch sử giao dịch trong 6 tháng gần nhất. Vui lòng liên lạc đến tổng đài hỗ trợ khách hàng nếu bạn có yêu cầu truy cứu những giao dịch xa hơn.</string>
+    <string name="ConditionCoupon">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce et malesuada nisi, id iaculis metus. Integer eget lacinia dolor. In hac habitasse platea dictumst. Nulla imperdiet ante non augue interdum, aliquet euismod orci accumsan. Aenean eu pretium risus. Quisque finibus neque non nisl venenatis, ut porta arcu rhoncus. Fusce nec metus elit.</string>
+    <string name="CouponInstruction">HƯỚNG DẪN: Nhấn vào dãy số bên dưới và đưa mã cho nhân viên bán hàng để sử dụng.</string>
 </resources>
