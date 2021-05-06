@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
 //        setContentView(R.layout.activity_main_tool_bar);
 //        setContentView(R.layout.activity_update_user_info);
 //        setContentView(R.layout.activity_finish_register);
-        setContentView(R.layout.activity_update_user_password);
+//        setContentView(R.layout.activity_update_user_password);
+        setContentView(R.layout.activity_menu);
     }
 }
