@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navHeaderLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/navLayout"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="80dp"
+        android:background="#e8f6e9">
+
+        <TextView
+            android:id="@+id/nav_displayname"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:onClick="launchClipPost"
+            android:text="%USER_NAME%"
+            android:textColor="#6D6D6D"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageView14"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/nav_username"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="%USER_ID%"
+            android:textColor="#6D6D6D"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/nav_displayname"
+            app:layout_constraintStart_toStartOf="@+id/nav_displayname"
+            app:layout_constraintTop_toBottomOf="@+id/nav_displayname" />
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="70dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="8dp"
+            android:background="#e8f6e9"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@mipmap/ic_user_foreground" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

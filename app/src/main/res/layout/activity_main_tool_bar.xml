@@ -45,10 +45,35 @@
                         android:layout_width="75dp"
                         android:layout_height="58dp"
                         android:src="@mipmap/ic_menu_foreground"
+                        android:onClick="LaunchMenu"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
                         app:layout_constraintVertical_bias="0.0" />
+
+                    <ImageView
+                        android:id="@+id/imageView15"
+                        android:layout_width="81dp"
+                        android:layout_height="57dp"
+                        android:layout_marginStart="32dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/btnMenu"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@mipmap/ic_logomart_foreground" />
+
+                    <TextView
+                        android:id="@+id/textView16"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="fill_vertical"
+                        android:text="TLMart"
+                        android:textColor="#008fd8"
+                        android:textSize="28sp"
+                        android:textStyle="bold"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toStartOf="@+id/btnBarcode"
+                        app:layout_constraintStart_toEndOf="@+id/imageView15"
+                        app:layout_constraintTop_toTopOf="parent" />
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
             </androidx.appcompat.widget.Toolbar>
@@ -59,18 +84,6 @@
                 android:layout_height="1dp"
                 android:background="?android:attr/listDivider" />
         </com.google.android.material.appbar.AppBarLayout>
-
-        <TextView
-            android:id="@+id/textView16"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="TLMart"
-            android:textColor="#008fd8"
-            android:textSize="28sp"
-            android:textStyle="bold"
-            app:layout_anchor="@+id/appBarLayout"
-            app:layout_anchorGravity="center" />
 
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
