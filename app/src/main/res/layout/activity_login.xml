@@ -171,6 +171,8 @@
         android:layout_marginEnd="24dp"
         android:gravity="center_horizontal"
         android:text="@string/NewRegister"
+        android:textColor="#787878"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="@+id/view2"
         app:layout_constraintStart_toStartOf="@+id/view2"
         app:layout_constraintTop_toBottomOf="@+id/txtQuenMaPin" />
