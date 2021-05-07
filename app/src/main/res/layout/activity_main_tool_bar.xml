@@ -27,7 +27,7 @@
 
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:gravity="end"
                     android:orientation="horizontal">
 
@@ -44,8 +44,8 @@
                         android:id="@+id/btnMenu"
                         android:layout_width="75dp"
                         android:layout_height="58dp"
-                        android:src="@mipmap/ic_menu_foreground"
                         android:onClick="LaunchMenu"
+                        android:src="@mipmap/ic_menu_foreground"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
@@ -78,11 +78,11 @@
 
             </androidx.appcompat.widget.Toolbar>
 
-            <View
-                android:id="@+id/divider"
+            <FrameLayout
+                android:id="@+id/frame"
                 android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:background="?android:attr/listDivider" />
+                android:layout_height="match_parent"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"></FrameLayout>
         </com.google.android.material.appbar.AppBarLayout>
 
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
