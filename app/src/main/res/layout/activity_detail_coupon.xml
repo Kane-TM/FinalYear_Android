@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:gravity="center_horizontal"
-        android:text="%Coupon Trị giá <giá>%"
+        android:text="Coupon Trị giá "
         android:textColor="#1E94D2"
         android:textSize="24sp"
         android:textStyle="bold"

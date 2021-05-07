@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MainActivity</string>
+    <string name="app_name">s</string>
     <string name="NewRegister">Người dùng chưa có thẻ thành viên, vui lòng chọn Đăng Ký bên dưới.</string>
     <string name="PointNotification"> point sẽ hết hạn ngày 31/5/2021.</string>
     <string name="NextLevel">Giá trị đơn hàng cần tích lũy để đạt hạng Silver trong tháng tiếp theo: 200000 VND</string>
