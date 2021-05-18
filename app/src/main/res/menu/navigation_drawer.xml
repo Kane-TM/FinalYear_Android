@@ -8,28 +8,28 @@
             android:title="Chức năng">
             <menu>
                 <item
-                    android:id="@+id/item1"
+                    android:id="@+id/item_main_screen"
                     android:icon="@mipmap/ic_home_foreground"
                     android:title="Màn Hình Chính"
                     android:checked="true" />
                 <item
-                    android:id="@+id/item2"
+                    android:id="@+id/item_member_card"
                     android:icon="@mipmap/ic_member_icon_foreground"
                     android:title="Thẻ Thành Viên" />
                 <item
-                    android:id="@+id/item3"
+                    android:id="@+id/item_save_point"
                     android:icon="@mipmap/ic_point_save_foreground"
                     android:title="Lịch Sử Điểm" />
                 <item
-                    android:id="@+id/item4"
+                    android:id="@+id/item_coupon"
                     android:icon="@mipmap/ic_coupon_foreground"
                     android:title="Phiếu Mua Hàng" />
                 <item
-                    android:id="@+id/item5"
+                    android:id="@+id/item_update_user_info"
                     android:icon="@mipmap/ic_user_icon_foreground"
                     android:title="Cập Nhật Thông Tin" />
                 <item
-                    android:id="@+id/item6"
+                    android:id="@+id/item_help"
                     android:icon="@mipmap/ic_question_foreground"
                     android:title="Trợ Giúp" />
             </menu>
@@ -42,15 +42,15 @@
         android:title="Người dùng">
         <menu>
             <item
-                android:id="@+id/item7"
+                android:id="@+id/item_login"
                 android:icon="@mipmap/ic_login_foreground"
                 android:title="Đăng Nhập" />
             <item
-                android:id="@+id/item8"
+                android:id="@+id/item_sign_up"
                 android:icon="@mipmap/ic_signup_foreground"
                 android:title="Đăng Ký" />
             <item
-                android:id="@+id/item9"
+                android:id="@+id/item_logout"
                 android:icon="@mipmap/ic_logout_foreground"
                 android:title="Đăng Xuất" />
         </menu>
